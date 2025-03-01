@@ -1,4 +1,4 @@
-# 📝 Text Classification with RNN & LSTM
+#  Text Classification with RNN & LSTM
 
 ## 📌 Overview
 This project implements and compares Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) models for sentiment classification on the IMDB movie reviews dataset. It includes:
