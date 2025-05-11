@@ -80,17 +80,10 @@ weighted avg       0.92      0.92      0.92      3107
 - Hyperparameters such as hidden size and learning rate significantly impact model performance.
 
 
-##  How to Run
-```bash
-# Clone the repo
-git clone https://github.com/ArenGolazizian/text-classification-rnn-lstm.git
-cd text-classification-rnn-lstm
+##  References
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Train models
-python src/train.py
-
-# Evaluate models
-python src/evaluate.py
+- Hochreiter, S., & Schmidhuber, J. (1997). *Long Short-Term Memory*. [Neural Computation](https://www.bioinf.jku.at/publications/older/2604.pdf)
+- Mikolov, T., Karafiát, M., Burget, L., Černocký, J., & Khudanpur, S. (2010). *Recurrent Neural Network based Language Model*. [Interspeech 2010](https://www.isca-speech.org/archive/archive_papers/interspeech_2010/i10_1045.pdf)
+- Maas, A. L., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011). *Learning Word Vectors for Sentiment Analysis*. [ACL 2011](https://aclanthology.org/P11-1015/)
+- PyTorch Documentation: [RNN module](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html), [LSTM module](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
+- IMDB Dataset: [https://ai.stanford.edu/~amaas/data/sentiment/](https://ai.stanford.edu/~amaas/data/sentiment/)
