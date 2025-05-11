@@ -9,7 +9,6 @@ This project implements and compares Recurrent Neural Networks (RNNs) and Long S
 
 ##  Project Structure
 `notebooks/` - Jupyter notebook with all training & evaluation\
-`src/` - Python scripts for dataset loading, training, and evaluation\
 `requirements.txt` - Dependencies
 
 
