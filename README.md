@@ -1,26 +1,26 @@
 #  Text Classification with RNN & LSTM
 
-## 📌 Overview
+##  Overview
 This project implements and compares Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) models for sentiment classification on the IMDB movie reviews dataset. It includes:
 - Data preprocessing (tokenization, vocabulary building, sequence padding)
 - RNN and LSTM models (both built-in and from scratch)
 - Training and evaluation pipelines
 - Sentiment prediction on new reviews
 
-## 📂 Project Structure
+##  Project Structure
 `notebooks/` - Jupyter notebook with all training & evaluation\
 `src/` - Python scripts for dataset loading, training, and evaluation\
 `requirements.txt` - Dependencies
 
 
 
-## 🏗 Models Implemented
+## Models Implemented
 - **RNN (PyTorch Built-in)**
 - **Custom RNN (Implemented from Scratch)**
 - **LSTM (PyTorch Built-in)**
 - **Custom LSTM (Implemented from Scratch)**
 
-## 📊 Results
+##  Results
 | Model  | Accuracy on Test Set |
 |--------|----------------------|
 | **Built-in RNN** | 58% |
@@ -81,7 +81,7 @@ weighted avg       0.92      0.92      0.92      3107
 - Hyperparameters such as hidden size and learning rate significantly impact model performance.
 
 
-## 🛠 How to Run
+##  How to Run
 ```bash
 # Clone the repo
 git clone https://github.com/ArenGolazizian/text-classification-rnn-lstm.git
